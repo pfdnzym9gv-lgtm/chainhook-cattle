@@ -4,28 +4,25 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Chainhook Cattle Company LLC | Montana & Colorado Angus Beef</title>
-<meta name="description" content="Chainhook Cattle Company LLC offers premium Angus beef and private treaty cattle sales in Montana and Colorado. Ranch-direct, ethical, and high-quality.">
+<meta name="description" content="Premium Angus beef and private treaty cattle sales in Montana and Colorado. Ranch-direct quality you can trust.">
 <style>
 :root {
-  --blue: #009DD1;
-  --dark-brown: #3B2F2F;
-  --mid-brown: #6B4F3F;
-  --tan: #EFE6DA;
+  --blue:#009DD1;
+  --dark:#3B2F2F;
+  --tan:#EFE6DA;
 }
 
 body {
   margin:0;
-  font-family: Arial, sans-serif;
-  background:#fdfdfc;
-  color:#2E2E2E;
-  line-height:1.6;
+  font-family:Arial, sans-serif;
+  color:var(--dark);
 }
 
-header {
-  background: var(--blue);
+header, footer {
+  background:var(--dark);
   color:#fff;
-  padding:14px 22px;
   text-align:center;
+  padding:25px;
 }
 
 nav a {
@@ -35,7 +32,9 @@ nav a {
   font-weight:bold;
 }
 
-nav a:hover { color: var(--blue); }
+nav a:hover {
+  color:var(--blue);
+}
 
 section {
   max-width:1100px;
@@ -43,17 +42,17 @@ section {
   padding:60px 20px;
 }
 
-h2, h3 {
-  color: var(--blue);
+h1, h2, h3 {
+  color:var(--blue);
 }
 
 .cta {
   background: var(--blue);
-  color:#fff;
-  padding:14px 22px;
-  text-decoration:none;
-  border-radius:8px;
-  font-weight:bold;
+  color: #fff;
+  padding: 14px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 table {
@@ -62,26 +61,31 @@ table {
   margin-top:20px;
 }
 
-th {
-  background: var(--tan);
-}
-
 th, td {
   border:1px solid #ccc;
   padding:10px;
   text-align:center;
 }
 
-.highlight {
-  color: var(--blue);
-  font-weight:bold;
+th {
+  background:var(--tan);
 }
 
-footer {
-  background: var(--dark);
-  color:#fff;
-  text-align:center;
-  padding:20px;
+a {
+  text-decoration:none;
+}
+
+a svg {
+  fill: var(--dark);
+  vertical-align: middle;
+}
+
+a:hover svg {
+  fill: var(--blue);
+}
+
+.social-links {
+  margin-top:12px;
 }
 </style>
 </head>
@@ -93,83 +97,60 @@ footer {
   <nav>
     <a href="#about">About</a>
     <a href="#beef">Beef Sales</a>
-    <a href="#cattle">Cattle</a>
     <a href="#contact">Contact</a>
   </nav>
+
+  <!-- Social Icons in Header -->
+  <div class="social-links">
+    <!-- Facebook -->
+    <a href="https://www.facebook.com/profile.php?id=61556169878819" target="_blank" aria-label="Chainhook Cattle Company on Facebook" style="margin-right:12px;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
+        <path d="M22.675 0h-21.35C.597 0 0 .597 0 1.326v21.348C0 23.403.597 24 1.326 24h11.495v-9.294H9.691V11.01h3.13V8.309c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24h-1.918c-1.504 0-1.796.715-1.796 1.763v2.312h3.587l-.467 3.696h-3.12V24h6.116C23.403 24 24 23.403 24 22.674V1.326C24 .597 23.403 0 22.675 0z"/>
+      </svg>
+    </a>
+
+    <!-- Instagram -->
+    <a href="https://www.instagram.com/chainhook_cattle_co_llc/" target="_blank" aria-label="Chainhook Cattle Company on Instagram">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
+        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.17.056 1.97.24 2.428.403a4.92 4.92 0 011.736 1.002 4.92 4.92 0 011.002 1.736c.164.458.347 1.258.403 2.428.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.056 1.17-.24 1.97-.403 2.428a4.902 4.902 0 01-1.002 1.736 4.902 4.902 0 01-1.736 1.002c-.458.164-1.258.347-2.428.403-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.056-1.97-.24-2.428-.403a4.92 4.92 0 01-1.736-1.002 4.92 4.92 0 01-1.002-1.736c-.164-.458-.347-1.258-.403-2.428C2.175 15.747 2.163 15.367 2.163 12s.012-3.584.07-4.85c.056-1.17.24-1.97.403-2.428a4.92 4.92 0 011.002-1.736 4.92 4.92 0 011.736-1.002c.458-.164 1.258-.347 2.428-.403C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332.013 7.052.072 5.773.13 4.71.322 3.798.674 2.88 1.026 2.095 1.58 1.41 2.264.725 2.948.17 3.733-.182 4.651c-.352.912-.544 1.975-.602 3.254C-.013 8.332 0 8.741 0 12c0 3.259.013 3.668.072 4.948.058 1.279.25 2.342.602 3.254.352.918.907 1.703 1.592 2.387.684.684 1.469 1.24 2.387 1.592.912.352 1.975.544 3.254.602C8.332 23.987 8.741 24 12 24s3.668-.013 4.948-.072c1.279-.058 2.342-.25 3.254-.602.918-.352 1.703-.907 2.387-1.592.684-.684 1.24-1.469 1.592-2.387.352-.912.544-1.975.602-3.254C23.987 15.668 24 15.259 24 12s-.013-3.668-.072-4.948c-.058-1.279-.25-2.342-.602-3.254-.352-.918-.907-1.703-1.592-2.387-.684-.684-1.469-1.24-2.387-1.592-.912-.352-1.975-.544-3.254-.602C15.668.013 15.259 0 12 0z"/>
+        <circle cx="12" cy="12" r="3.6"/>
+        <circle cx="18.406" cy="5.594" r="1.44"/>
+      </svg>
+    </a>
+  </div>
 </header>
 
 <section id="about">
-  <h2>About Chainhook Cattle</h2>
-  <p>Chainhook Cattle Company LLC raises premium Angus cattle across Montana and Colorado. Our focus is quality genetics, ethical ranching, and ranch-direct beef for families who care about where their food comes from.</p>
+  <h2>About</h2>
+  <p>Chainhook Cattle Company LLC raises premium Angus cattle in Montana and Colorado using ethical, sustainable ranching practices.</p>
 </section>
 
-<section id="beef" style="background:var(--tan);">
+<section id="beef" style="background:var(--tan)">
   <h2>Direct-to-Consumer Angus Beef</h2>
-  <p>USDA inspected, professionally processed, vacuum sealed, and freezer-ready.</p>
-  <p>Estimated availability wait time: <span class="highlight">3–5 months</span></p>
-
+  <p>Estimated wait time: <strong>3–5 months</strong></p>
   <table>
-    <tr>
-      <th>Beef Share</th>
-      <th>Approx. Take-Home Weight</th>
-      <th>Total Price</th>
-    </tr>
-    <tr>
-      <td>Quarter Beef</td>
-      <td>~120 lbs</td>
-      <td>$1,560</td>
-    </tr>
-    <tr>
-      <td>Half Beef</td>
-      <td>~240 lbs</td>
-      <td>$3,000</td>
-    </tr>
-    <tr>
-      <td>Whole Beef</td>
-      <td>~483 lbs</td>
-      <td>$5,796</td>
-    </tr>
+    <tr><th>Share</th><th>Approx Weight</th><th>Total Price</th></tr>
+    <tr><td>Quarter</td><td>~120 lbs</td><td>$1,560</td></tr>
+    <tr><td>Half</td><td>~240 lbs</td><td>$3,000</td></tr>
+    <tr><td>Whole</td><td>~483 lbs</td><td>$5,796</td></tr>
   </table>
-
-  <p><a class="cta" href="tel:14062845599">Call (406) 284-5599 for Availability</a></p>
-</section>
-
-<section id="cattle">
-  <h2>Private Treaty Cattle Sales</h2>
-  <p>Replacement females, feeder cattle, and select Angus genetics available by private treaty. Call to discuss current inventory and upcoming availability.</p>
+  <p><a class="cta" href="tel:14062845599">Call (406) 284-5599</a></p>
+  <p><a class="cta" href="Chainhook_Cattle_Beef_Pricing.pdf" target="_blank">View Pricing PDF</a></p>
 </section>
 
 <section id="contact">
   <h2>Contact</h2>
-  <p><strong>Phone:</strong> (406) 284-5599</p>
-  <p><strong>Website:</strong> chainhookcattle.com</p>
-  a:hover svg {
-  fill: #009DD1;
-}
-  <!-- Social Links -->
-<div style="margin-top:12px;">
-  <!-- Facebook -->
-  <a href="https://www.facebook.com/profile.php?id=61556169878819" target="_blank" aria-label="Chainhook Cattle Company on Facebook" style="margin-right:12px;">
-    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="#3B2F2F">
-      <path d="M22.675 0h-21.35C.597 0 0 .597 0 1.326v21.348C0 23.403.597 24 1.326 24h11.495v-9.294H9.691V11.01h3.13V8.309c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24h-1.918c-1.504 0-1.796.715-1.796 1.763v2.312h3.587l-.467 3.696h-3.12V24h6.116C23.403 24 24 23.403 24 22.674V1.326C24 .597 23.403 0 22.675 0z"/>
-    </svg>
-  </a>
+  <p>Phone: (406) 284-5599</p>
+  <p>Website: chainhookcattle.com</p>
 
-  <!-- Instagram -->
-  <a href="https://www.instagram.com/chainhook_cattle_co_llc/" target="_blank" aria-label="Chainhook Cattle Company on Instagram">
-    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="#3B2F2F">
-      <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.17.056 1.97.24 2.428.403a4.92 4.92 0 011.736 1.002 4.92 4.92 0 011.002 1.736c.164.458.347 1.258.403 2.428.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.056 1.17-.24 1.97-.403 2.428a4.902 4.902 0 01-1.002 1.736 4.902 4.902 0 01-1.736 1.002c-.458.164-1.258.347-2.428.403-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.056-1.97-.24-2.428-.403a4.92 4.92 0 01-1.736-1.002 4.92 4.92 0 01-1.002-1.736c-.164-.458-.347-1.258-.403-2.428C2.175 15.747 2.163 15.367 2.163 12s.012-3.584.07-4.85c.056-1.17.24-1.97.403-2.428a4.92 4.92 0 011.002-1.736 4.92 4.92 0 011.736-1.002c.458-.164 1.258-.347 2.428-.403C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332.013 7.052.072 5.773.13 4.71.322 3.798.674 2.88 1.026 2.095 1.58 1.41 2.264.725 2.948.17 3.733-.182 4.651c-.352.912-.544 1.975-.602 3.254C-.013 8.332 0 8.741 0 12c0 3.259.013 3.668.072 4.948.058 1.279.25 2.342.602 3.254.352.918.907 1.703 1.592 2.387.684.684 1.469 1.24 2.387 1.592.912.352 1.975.544 3.254.602C8.332 23.987 8.741 24 12 24s3.668-.013 4.948-.072c1.279-.058 2.342-.25 3.254-.602.918-.352 1.703-.907 2.387-1.592.684-.684 1.24-1.469 1.592-2.387.352-.912.544-1.975.602-3.254C23.987 15.668 24 15.259 24 12s-.013-3.668-.072-4.948c-.058-1.279-.25-2.342-.602-3.254-.352-.918-.907-1.703-1.592-2.387-.684-.684-1.469-1.24-2.387-1.592-.912-.352-1.975-.544-3.254-.602C15.668.013 15.259 0 12 0z"/>
-      <circle cx="12" cy="12" r="3.6"/>
-      <circle cx="18.406" cy="5.594" r="1.44"/>
-    </svg>
-  </a>
-</div>
+  <!-- Social Icons in Footer -->
+  <div class="social-links">
+    <a href="https://www.facebook.com/profile.php?id=61556169878819" target="_blank" aria-label="Facebook" style="margin-right:12px;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
+        <path d="M22.675 0h-21.35C.597 0 0 .597 0 1.326v21.348C0 23.403.597 24 1.326 24h11.495v-9.294H9.691V11.01h3.13V8.309c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24h-1.918c-1.504 0-1.796.715-1.796 1.763v2.312h3.587l-.467 3.696h-3.12V24h6.116C23.403 24 24 23.403 24 22.674V1.326C24 .597 23.403 0 22.675 0z"/>
+      </svg>
+    </a>
 
-</section>
-
-<footer>
-  <p>&copy; 2026 Chainhook Cattle Company LLC</p>
-</footer>
-
-</body>
-</html>
+    <a href="https://www.instagram.com/chainhook_cattle_co_llc/" target="_blank" aria-label="Instagram">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
+        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.17.056 1.97.24 2.428.403a4.92 4.92 0 011.736 1.002 4.92 4.92 0 011.002 1.736c.164.458.347 1.258.403 2.428.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.056 1.17-.24 1.97-.403 2.428a4.902 4.902 0 01-1.002 1.736 4.902 4.902 0 01-1.736 1.002c-.458.164-1.258.347-2.428.403-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.056-1.97-.24-2.428-.403a4.92 4.92 0 01-1.736-1.002 4.92 4.92 0 01-1.002-1.736c-.164-.458-.347-1.258-.403-2.428C2.175 15.747 2.163 15.367 2.163 12s.012-3.584.07-4.85c.056-1.17.24-1.97.403-2.428a4.92 4.92 0 011.002-1.736 4.92 4.92 0 011.736-1.002c.458-.164 1.258-.347 2.428-.403C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332.013 7.052.072 5.773.13 4.71.322 3.798.674 2.88 1.026 2.095 1.58 1.41 2.264.725 2.948.17 3.733-.182 4.651c-.352.912-.544 1.975-.602 3.254C-.013 8.332 0 8.741 0 12c0 3.259.013 3.668.072 4.948.058 1.279.25 2.342.602 3.254.352.918.907 1.703 1.592 2.387.684.684 1.469 1.24 2.387 1.592.912.352 1.975.544 3.254.602C8.332 23.987 8.741 24 12 24s3.668-.013 4.948-.072c1.279-.058 2.342-.25 3.254-.602.918-.352 1.703-.907 2.387-1.592.684-.684 1.24-1.469 1.592-2.387.352-.912.544-1.975.602-3.254C23.987 15.668 24 15.259 24 12s-.013-3.668-.072-4.948c-.058-1.279-.25
